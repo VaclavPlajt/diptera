@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1300"
+   height="650"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="English_language_-_United_States,_Canada_and_the_United_Kingdom.svg"
+   inkscape:export-filename="D:\wercajk_repo\games\next\next_project\img\ui\english_flag.png"
+   inkscape:export-xdpi="17.723078"
+   inkscape:export-ydpi="17.723078">
+  <metadata
+     id="metadata95">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview93"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.22"
+     inkscape:cx="650"
+     inkscape:cy="325"
+     inkscape:window-x="160"
+     inkscape:window-y="290"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <polygon
+       id="pt"
+       points="-0.1624598481164531,0 0,-0.5 0.1624598481164531,0"
+       transform="scale(0.0616)"
+       fill="#FFF" />
+    <g
+       id="star">
+      <use
+         xlink:href="#pt"
+         transform="rotate(-144)"
+         id="use8" />
+      <use
+         xlink:href="#pt"
+         transform="rotate(-72)"
+         id="use10" />
+      <use
+         xlink:href="#pt"
+         id="use12" />
+      <use
+         xlink:href="#pt"
+         transform="rotate(72)"
+         id="use14" />
+      <use
+         xlink:href="#pt"
+         transform="rotate(144)"
+         id="use16" />
+    </g>
+    <g
+       id="s5">
+      <use
+         xlink:href="#star"
+         x="-0.252"
+         id="use19" />
+      <use
+         xlink:href="#star"
+         x="-0.126"
+         id="use21" />
+      <use
+         xlink:href="#star"
+         id="use23" />
+      <use
+         xlink:href="#star"
+         x="0.126"
+         id="use25" />
+      <use
+         xlink:href="#star"
+         x="0.252"
+         id="use27" />
+    </g>
+    <g
+       id="s6">
+      <use
+         xlink:href="#s5"
+         x="-0.063"
+         id="use30" />
+      <use
+         xlink:href="#star"
+         x="0.315"
+         id="use32" />
+    </g>
+    <g
+       id="x4">
+      <use
+         xlink:href="#s6"
+         id="use35" />
+      <use
+         xlink:href="#s5"
+         y="0.054"
+         id="use37" />
+      <use
+         xlink:href="#s6"
+         y="0.108"
+         id="use39" />
+      <use
+         xlink:href="#s5"
+         y="0.162"
+         id="use41" />
+    </g>
+    <g
+       id="u">
+      <use
+         xlink:href="#x4"
+         y="-0.216"
+         id="use44" />
+      <use
+         xlink:href="#x4"
+         id="use46" />
+      <use
+         xlink:href="#s6"
+         y="0.216"
+         id="use48" />
+    </g>
+    <rect
+       id="stripe"
+       width="1300"
+       height="50"
+       fill="#B22234" />
+  </defs>
+  <rect
+     width="1300"
+     height="650"
+     fill="#FFF"
+     id="rect51" />
+  <use
+     xlink:href="#stripe"
+     id="use53" />
+  <use
+     xlink:href="#stripe"
+     y="100"
+     id="use55" />
+  <use
+     xlink:href="#stripe"
+     y="200"
+     id="use57" />
+  <use
+     xlink:href="#stripe"
+     y="300"
+     id="use59" />
+  <use
+     xlink:href="#stripe"
+     y="400"
+     id="use61" />
+  <use
+     xlink:href="#stripe"
+     y="500"
+     id="use63" />
+  <use
+     xlink:href="#stripe"
+     y="600"
+     id="use65" />
+  <rect
+     width="494"
+     height="350"
+     fill="#3C3B6E"
+     id="rect67" />
+  <use
+     xlink:href="#u"
+     transform="translate(247,175) scale(650)"
+     id="use69" />
+  <svg
+     viewBox="0 0 60 30"
+     width="1300"
+     height="650"
+     id="svg71"
+     version="1.1"
+     inkscape:export-filename="D:\wercajk_repo\games\next\next_project\img\ui\english_flag.png"
+     inkscape:export-xdpi="8.8615389"
+     inkscape:export-ydpi="8.8615389">
+    <clipPath
+       id="t">
+      <path
+         d="M30,15L60,30V15H0V30H30z"
+         id="path74" />
+    </clipPath>
+    <clipPath
+       id="uk">
+      <path
+         d="M0,30H60V0z"
+         id="path77" />
+    </clipPath>
+    <g
+       clip-path="url(#uk)"
+       id="g79">
+      <path
+         d="M0,0 v30 h60 v-30 z"
+         fill="#00247d"
+         id="path81" />
+      <path
+         d="M0,0 L60,30 M60,0 L0,30"
+         stroke="#fff"
+         stroke-width="6"
+         id="path83" />
+      <path
+         d="M0,30 L30,15 L60,30"
+         clip-path="url(#t)"
+         fill="none"
+         stroke="#cf142b"
+         stroke-width="4"
+         id="path85" />
+      <path
+         d="M30,0 v30 M0,15 h60"
+         stroke="#fff"
+         stroke-width="10"
+         id="path87" />
+      <path
+         d="M30,0 v30 M0,15 h60"
+         stroke="#cf142b"
+         stroke-width="6"
+         id="path89" />
+    </g>
+  </svg>
+  <path
+     transform="translate(150,75)"
+     fill="#ff0000"
+     d="m 499.99228,46.875 -34.11312,63.62529 c -3.87086,6.91501 -10.80627,6.27363 -17.74169,2.41138 l -24.69699,-12.78858 18.40705,97.72711 c 3.87086,17.85419 -8.54859,17.85419 -14.67765,10.13435 l -43.10105,-48.25099 -6.99738,24.503 c -0.80692,3.21777 -4.35481,6.59744 -9.67748,5.79261 l -54.50177,-11.45912 14.31524,52.04475 c 3.06451,11.58054 5.4549,16.37528 -3.09375,19.42959 l -19.42619,9.13025 93.82127,76.20838 c 3.7135,2.88151 5.58971,8.067 4.26768,12.7621 l -8.21136,26.94707 c 32.30405,-3.72371 61.24898,-9.32594 93.56939,-12.77619 2.85323,-0.30459 7.62988,4.40408 7.61029,7.71058 l -4.28024,98.72342 15.70639,0 -2.47237,-98.5117 c -0.0197,-3.3065 4.31372,-8.22689 7.16695,-7.9223 32.32041,3.45026 61.26538,9.05248 93.56942,12.77619 l -8.21134,-26.94707 c -1.32203,-4.6951 0.55417,-9.88059 4.26767,-12.7621 l 93.82125,-76.20838 -19.42617,-9.13025 c -8.54867,-3.05431 -6.15828,-7.84905 -3.09377,-19.42959 l 14.31527,-52.04475 -54.5018,11.45912 c -5.32267,0.80483 -8.87056,-2.57484 -9.6775,-5.79261 l -6.99737,-24.503 -43.10103,48.25099 c -6.12908,7.71984 -18.54854,7.71984 -14.67768,-10.13435 l 18.40702,-97.72711 -24.69694,12.78858 c -6.93559,3.86225 -13.87083,4.50363 -17.7417,-2.41138"
+     id="path91" />
+</svg>

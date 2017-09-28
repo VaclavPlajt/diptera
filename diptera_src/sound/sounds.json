@@ -1,0 +1,73 @@
+{
+    "music": {
+        "file": "edtijo__happy-guitar",
+        "volume": 0.8
+    },
+    "button": {
+        "file": "btn",
+        "multichannel": true
+    },
+    "wrong": {
+        "file": "wrong"
+    },
+    "enemy_missile_explode": {
+        "file": "235264__godowan__bubble1",
+        "multichannel": true
+    },
+    "heal": {
+        "file": "heal",
+        "multichannel": true,
+        "volume": 0.6
+    },
+    "building_site": {
+        "file": "building_site"
+    },
+    "enemy_missile" : {
+        "file":"enemy_missile",
+        "multichannel": true
+    },
+    "gun_work" : {
+        "file" : "ratchet",
+        "multichannel": true,
+        "volume": 0.65
+    },
+    "missle_launch" : {
+        "file": "missle_launch", 
+        "multichannel": true,
+        "volume": 1.2
+    },
+    "work" : {
+        "file": "work", 
+        "multichannel": true,
+        "volume": 0.4
+    },
+    "put" : {
+        "file": "put",
+        "multichannel": true
+    },
+    "targeted" : {
+        "file": "targeted"
+    },
+    "keep_destroyed" : {
+        "file": "keep_destroy"
+    },
+    "keep_regen" : {
+        "file": "keep_regen"
+    },
+    "keep_convert" : {
+        "file": "keep_convert"
+    },
+    "loss" : {
+        "file": "loss"
+    },
+    "win" : {
+        "file": "win"
+    },
+    "minion_free" : {
+        "file" : "minion_free"
+    }
+    
+    
+}
+
+

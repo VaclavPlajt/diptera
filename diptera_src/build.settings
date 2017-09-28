@@ -1,0 +1,189 @@
+
+settings =
+{
+    orientation =
+    {
+        default = "landscapeRight",  --initial launch orientation
+        supported = {"landscapeLeft", "landscapeRight"},  --table of allowed options for auto-orientation
+    },
+    
+    android =
+    {
+        usesPermissions =
+        {
+            "android.permission.INTERNET",
+            --"com.android.vending.BILLING",
+            "com.android.vending.CHECK_LICENSE", -- see http://coronalabs.com/blog/2013/03/26/androidizing-your-mobile-app/
+            --NOTE: we can add coarse location ?? viz: http://docs.coronalabs.com/plugin/flurry/init.html
+        },
+    },
+    
+    plugins =
+    {
+        -- key is the name passed to Lua's 'require()'
+        ["CoronaProvider.analytics.flurry"] =
+        {
+            -- required
+            publisherId = "com.coronalabs",
+        },
+        --[[
+        -- key is the name passed to Lua's 'require()'
+        ["plugin.google.iap.v3"] =
+        {
+            -- required
+            publisherId = "com.coronalabs",
+        },
+        ]]
+    },
+    
+    iphone =
+    {
+        plist =
+        {
+            UIApplicationExitsOnSuspend = false,
+            --CFBundleDisplayName = "My Corona App",
+            --CFBundleName = "My Corona App",
+            --UIPrerenderedIcon = true, -- if true, iOS will not apply a shine effect to the app icon.
+            UIStatusBarHidden = true,
+            MinimumOSVersion = "6.0",
+            --icon image files table
+            CFBundleIconFiles = {
+                "Icon.png",
+                "Icon@2x.png",
+                "Icon-60.png",
+                "Icon-60@2x.png",
+                "Icon-60@3x.png",
+                "Icon-72.png",
+                "Icon-72@2x.png",
+                "Icon-76.png",
+                "Icon-76@2x.png",
+                "Icon-Small-40.png",
+                "Icon-Small-40@2x.png",
+                "Icon-Small-40@3x.png",
+                "Icon-Small-50.png",
+                "Icon-Small-50@2x.png",
+                "Icon-Small.png",
+                "Icon-Small@2x.png",
+                "Icon-Small@3x.png"
+            },
+            
+            --launch image files table
+            -- see: https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/iPhoneOSKeys.html#//apple_ref/doc/uid/TP40009252-SW28
+            
+            UILaunchImages = {
+            
+                {  -- iPhone 4 Landscape
+                    UILaunchImageMinimumOSVersion = "7.0",
+                    UILaunchImageName = "iOS-Default-Landscape",
+                    UILaunchImageOrientation = "Landscape",
+                    UILaunchImageSize = "{320, 480}"
+                },
+                {  -- iPhone 5 Landscape
+                    UILaunchImageMinimumOSVersion = "7.0",
+                    UILaunchImageName= "Default-Landscape-568h",
+                    UILaunchImageOrientation = "Landscape",
+                    UILaunchImageSize = "{320, 568}"
+                },
+                {  -- iPhone 6 Landscape
+                    UILaunchImageMinimumOSVersion = "8.0",
+                    UILaunchImageName = "Default-Landscape-667h",
+                    UILaunchImageOrientation = "Landscape",
+                    UILaunchImageSize = "{375, 667}"
+                },
+                {  -- iPhone 6 Plus Landscape
+                    UILaunchImageMinimumOSVersion = "8.0",
+                    UILaunchImageName = "Default-Landscape-667h",
+                    UILaunchImageOrientation = "Landscape",
+                    UILaunchImageSize = "{414, 736}"
+                },
+                {  -- iPad Landscape
+                    UILaunchImageMinimumOSVersion = "7.0",
+                    UILaunchImageName = "iOS-Default-Landscape",
+                    UILaunchImageOrientation = "Landscape",
+                    UILaunchImageSize = "{768, 1024}"
+                },
+                --[[
+            	{  -- iPhone 4 LandscapeLeft
+                    ["UILaunchImageMinimumOSVersion"] = "7.0",
+                    ["UILaunchImageName"] = "Default-Landscape",
+                    ["UILaunchImageOrientation"] = "LandscapeLeft",
+                    ["UILaunchImageSize"] = "{320, 480}"
+                },
+                {  -- iPhone 4 LandscapeRight
+                    ["UILaunchImageMinimumOSVersion"] = "7.0",
+                    ["UILaunchImageName"] = "Default-Landscape",
+                    ["UILaunchImageOrientation"] = "LandscapeRight",
+                    ["UILaunchImageSize"] = "{320, 480}"
+                },
+                
+                {  -- iPhone 4 Landscape
+                    ["UILaunchImageMinimumOSVersion"] = "7.0",
+                    ["UILaunchImageName"] = "Default-Landscape",
+                    ["UILaunchImageOrientation"] = "Landscape",
+                    ["UILaunchImageSize"] = "{320, 480}"
+                },
+                
+                {  -- iPhone 5 LandscapeLeft
+                    ["UILaunchImageMinimumOSVersion"] = "7.0",
+                    ["UILaunchImageName"] = "Default-Landscape-568h",
+                    ["UILaunchImageOrientation"] = "LandscapeLeft",
+                    ["UILaunchImageSize"] = "{320, 568}"
+                },
+                {  -- iPhone 5 LandscapeRight
+                    ["UILaunchImageMinimumOSVersion"] = "7.0",
+                    ["UILaunchImageName"] = "Default-Landscape-568h",
+                    ["UILaunchImageOrientation"] = "LandscapeRight",
+                    ["UILaunchImageSize"] = "{320, 568}"
+                },
+                {  -- iPhone 6 LandscapeLeft
+                    ["UILaunchImageMinimumOSVersion"] = "8.0",
+                    ["UILaunchImageName"] = "Default-Landscape-667h",
+                    ["UILaunchImageOrientation"] = "LandscapeLeft",
+                    ["UILaunchImageSize"] = "{375, 667}"
+                },
+                {  -- iPhone 6 LandscapeRight
+                    ["UILaunchImageMinimumOSVersion"] = "8.0",
+                    ["UILaunchImageName"] = "Default-Landscape-667h",
+                    ["UILaunchImageOrientation"] = "LandscapeRight",
+                    ["UILaunchImageSize"] = "{375, 667}"
+                },
+                
+                {  -- iPhone 6 Plus LandscapeLeft
+                    ["UILaunchImageMinimumOSVersion"] = "8.0",
+                    ["UILaunchImageName"] = "Default-Landscape-736h",
+                    ["UILaunchImageOrientation"] = "LandscapeLeft",
+                    ["UILaunchImageSize"] = "{414, 736}"
+                },
+                {  -- iPhone 6 Plus LandscapeRight
+                    ["UILaunchImageMinimumOSVersion"] = "8.0",
+                    ["UILaunchImageName"] = "Default-Landscape-736h",
+                    ["UILaunchImageOrientation"] = "LandscapeRight",
+                    ["UILaunchImageSize"] = "{414, 736}"
+                },
+                
+                
+                {  -- iPad LandscapeLeft
+                    ["UILaunchImageMinimumOSVersion"] = "7.0",
+                    ["UILaunchImageName"] = "Default-Landscape",
+                    ["UILaunchImageOrientation"] = "LandscapeLeft",
+                    ["UILaunchImageSize"] = "{768, 1024}"
+                },
+                {  -- iPad LandscapeRight
+                    ["UILaunchImageMinimumOSVersion"] = "7.0",
+                    ["UILaunchImageName"] = "Default-Landscape",
+                    ["UILaunchImageOrientation"] = "LandscapeRight",
+                    ["UILaunchImageSize"] = "{768, 1024}"
+                },
+              ]]  
+            },
+            
+            
+            UIAppFonts = -- custom font
+            {
+                "Courgette.ttf",
+            },
+            
+        },
+    },
+}
+

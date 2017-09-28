@@ -1,0 +1,225 @@
+{
+    "iconsDirectory": "ui/actions",
+    "myEmptyTileSelected": {
+        "titleKey": "actions.emptyTitle",
+        "actions": [
+            {
+                "name": "buildWalls",
+                "descKey": "act.build_wall",
+                "icon": "empty"
+            },
+            {
+                "name": "buildGun",
+                "descKey": "act.build_gun",
+                "icon": "empty"
+            },
+            {
+                "name": "bringMaterialHere",
+                "descKey": "act.transport_material",
+                "icon": "empty"
+            }
+        ]
+    },
+    "bringMaterialHere": {
+        "titleKey": "actions.bringMaterialTitle",
+        "actions": [
+            {
+                "countChooser": true,
+                "name": "bringMaterial",
+                "descKey": "act.bring_five",
+                "icon": "empty"
+            }
+        ]
+    },
+    "Wall_actions": {
+        "titleKey": "actions.wallTitle",
+        "actions":
+                [
+                    {
+                        "name": "destroy",
+                        "descKey": "wall.destroy",
+                        "icon": "empty",
+                        "disablingProperty": "inDeconstruction"
+                    },
+                    {
+                        "twoState": true,
+                        "enablingProperty": "repairEnabled",
+                        "firstName": "disableRepair",
+                        "secondName": "enableRepair",
+                        "firstDescKey": "building.disableRepairs",
+                        "secondDescKey": "building.enableRepairs",
+                        "firstIcon": "empty",
+                        "secondIcon": "empty"
+                    }
+                ]
+    },
+    "Wall_building_actions": {
+        "titleKey": "actions.buildingWalsTitle",
+        "actions":
+                [
+                    {
+                        "name": "cancelWallBuild",
+                        "descKey": "wall.cancel_build",
+                        "icon": "empty"
+                    }
+                ]
+    },
+    "BuildingSite_actions": {
+        "titleKey": "actions.buildingSiteTitle",
+        "actions":
+                [
+                    {
+                        "name": "cancel",
+                        "descKey": "build.cancel",
+                        "icon": "empty"
+                    }
+                ]
+    },
+    "Gun_actions": {
+        "titleKey": "actions.GunTitle",
+        "suffixKey" : "actions.suffix.validTargets",
+        "actions":
+                [
+                    {
+                        "name": "setTarget",
+                        "descKey": "gun.set_target",
+                        "icon": "empty"
+                    },
+                    {
+                        "name": "stopFiring",
+                        "descKey": "gun.stop_firing",
+                        "icon": "empty",
+                        "enablingProperty": "target"
+                    },
+                    {
+                        "name": "destroy",
+                        "descKey": "build.destroy",
+                        "icon": "empty",
+                        "disablingProperty": "inDeconstruction"
+                    }
+                ]
+    },
+    "chooseTarget": {
+        "titleKey": "actions.chooseTargetTitle",
+        "suffixKey" : "actions.suffix.validTargets",
+        "actions":
+                [
+                    {
+                        "name": "cancelTargeting",
+                        "descKey": "gun.cancel_targeting",
+                        "icon": "empty"
+                    }
+                ]
+    },
+    "HomeKeep_actions": {
+        "titleKey": "actions.homeKeepTitle",
+        "actions": []
+    },
+    "Material_actions": {
+        "titleKey": "actions.materialTitle",
+        "actions": [
+            {
+                "twoState": true,
+                "enablingProperty": "bringHereRequest",
+                "secondName": "bringMaterialHere",
+                "firstName": "cancelBringHereRequest",
+                "secondDescKey": "act.transport__another_material",
+                "firstDescKey": "act.cancel_bringHere",
+                "firstIcon": "empty",
+                "secondIcon": "empty"
+            }
+        ]
+    },
+    "DestroyedKeep_actions": {
+        "titleKey": "actions.destroyedKeepTitle",
+        "actions":
+                [
+                    {
+                        "twoState": true,
+                        "enablingProperty": "conversionRequest",
+                        "secondName": "convert",
+                        "firstName": "stopConversion",
+                        "secondDescKey": "destroyed_keep.convert",
+                        "firstDescKey": "destroyed_keep.stop_convert",
+                        "firstIcon": "empty",
+                        "secondIcon": "empty"
+                    }
+                ]
+    },
+    "Keep_actions": {
+        "titleKey": "actions.keepTitle",
+        "actions":
+                [
+                    {
+                        "twoState": true,
+                        "enablingProperty": "repairEnabled",
+                        "firstName": "disableRepair",
+                        "secondName": "enableRepair",
+                        "firstDescKey": "building.disableRepairs",
+                        "secondDescKey": "building.enableRepairs",
+                        "firstIcon": "empty",
+                        "secondIcon": "empty"
+                    }
+                ]
+    },
+    "Treasure_actions": {
+        "titleKey": "actions.treasureTitle",
+        "actions":
+                [
+                    {
+                        "twoState": true,
+                        "enablingProperty": "minionWorkRequest",
+                        "secondName": "unlockTreasure",
+                        "firstName": "stopUnlockingTreasure",
+                        "secondDescKey": "treasure.unlock",
+                        "firstDescKey": "treasure.stop_unlock",
+                        "firstIcon": "empty",
+                        "secondIcon": "empty"
+                    }
+                ]
+    },
+    "Bullet_actions": {
+        "titleKey": "actions.bulletTitle",
+        "actions": []
+    },
+    "oponentEmptyTileSelected": {
+        "titleKey": "actions.emptyTitle",
+        "suffixKey" : "actions.suffix.enemyTile",
+        "actions": []
+    },
+    "enemy_Bullet_actions": {
+        "titleKey": "actions.bulletTitle",
+        "suffixKey" : "actions.suffix.enemyTile",
+        "actions": []
+    },
+    "enemy_Material_actions": {
+        "titleKey": "actions.materialTitle",
+        "suffixKey" : "actions.suffix.enemyTile",
+        "actions": []
+    },
+    "enemy_EnemyKeep_actions": {
+        "titleKey": "actions.EnemyKeepTitle",
+        "suffixKey" : "actions.suffix.enemyTile",
+        "actions": []
+    },
+    "enemy_Wall_actions": {
+        "titleKey": "actions.wallTitle",
+        "suffixKey" : "actions.suffix.enemyTile",
+        "actions": []
+    },
+    "enemy_Gun_actions": {
+        "titleKey": "actions.GunTitle",
+        "suffixKey" : "actions.suffix.enemyTile",
+        "actions": []
+    },
+    "enemy_Keep_actions": {
+        "titleKey": "actions.EnemyKeepTitle",
+        "suffixKey" : "actions.suffix.enemyTile",
+        "actions": []
+    },
+    "enemy_Treasure_actions": {
+        "titleKey": "actions.treasureTitle",
+        "suffixKey" : "actions.suffix.enemyTile",
+        "actions": []
+    }
+}
